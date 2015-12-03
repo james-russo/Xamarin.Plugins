@@ -50,7 +50,7 @@ namespace Xamd.ImageCarousel.Forms.Plugin.Droid
 				}
 			}
 
-			protected override void OnElementChanged (ElementChangedEventArgs<Xamd.ImageCarousel.Forms.Plugin.Abstractions.ImageCarousel> e)
+		protected override void OnElementChanged (ElementChangedEventArgs<Xamd.ImageCarousel.Forms.Plugin.Abstractions.GenericCarousel> e)
 			{
 				base.OnElementChanged (e);
 
@@ -121,4 +121,4 @@ namespace Xamd.ImageCarousel.Forms.Plugin.Droid
 				}
 			}
 		}
-	}
+}
